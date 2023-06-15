@@ -1,0 +1,308 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* * {
+  border: 1px solid #ff0000;
+} */
+
+/*----------------HEADER-------------------*/
+header {
+  background-color: #A3A656;
+  height: 70px;
+}
+/*Menu de header*/
+nav {
+  display: inline-block;
+  position: relative;
+  top: 25px;
+}
+.lista-sin-punto {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+#lis-header {
+  margin-left: 70px;
+}
+#lis-header li {
+  margin: 0px 10px;
+}
+nav ul li:hover {
+  color: #FFFF00;
+}
+
+/*Usuario e idioma*/
+#login {
+  float: right;
+  position: relative;
+  top: 10px;
+  display: flex;
+  align-items: center;
+}
+#login > span {
+  margin: 0px 15px;
+  display: flex;
+  align-items: center;
+}
+.usuario > span {
+  margin: 0 5px;
+}
+.icono{
+  margin: 0px 8px;
+}
+
+
+/*------------------Portada y reservacion------------------*/
+/*Portada*/
+.main {
+  height: 767px;
+  background: url(../images/main.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  /*background-position: bottom-left;*/
+}
+#texto-main {
+  width: 550px;
+  position: relative;
+  left: 200px;
+  top: 200px;
+}
+#texto-romanesco{
+  margin: 0px 0px 40px 9px;
+}
+
+/*Reservacion*/
+#reservacion {
+  height: 100px;
+  background-color: #f2f6f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reservacion .cita {
+  margin: 0px 25px;
+}
+#reservacion .codigo {
+  margin: 0px 15px 0px 30px;
+}
+#reservacion input {
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+}
+#reserva {
+  width: 250px;
+}
+#codigo {
+  width: 180px;
+}
+
+/*Servicios de masajes*/
+.servicios{
+  text-align: center;
+}
+.servicios div > span:nth-child(n + 2) {
+  margin-left: 134px;
+}
+.carta-servicio {
+  width: 300px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  box-sizing: border-box;
+}
+.carta-servicio p {
+  width: 300px;
+  text-align: left;
+}
+.imagen-servicio {
+  width: 300px;
+  height: 225px;
+}
+.imagen-servicio img {
+  width: auto;
+  height: 100%;
+}
+.cabecera {
+  width: 298px;
+  height: 70px;
+  background-color: #A3A656;
+  border-radius: 15px 15px 0px 0px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.compra {
+  display: flex;
+  align-items: center;
+}
+.boton-reserva {
+  background-color: #A3A656;
+  color: #FFFFFF;
+  border-radius: 35px;
+  height: 30px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+.boton-reserva:hover {
+  color: #384001;
+}
+.precio {
+  float: left;
+  margin-left: 12px;
+}
+
+/*--------------Membresia------------------*/
+#membresias {
+  height: 770px;
+  background-color: #F2F6F6;
+}
+h2 {
+  width: fit-content;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+#tarjetas-membresia {
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.carta-membresia {
+  width: 300px;
+  height: 100%;
+  display: inline-block;
+}
+.plan-membresia {
+  margin: 5px 0px;
+}
+.carta-membresia div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-membresia {
+  width: 100%;
+  height: 255px;
+}
+.imagen-membresia {
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  border: 10px solid #384001;
+}
+.beneficios-membresia {
+  margin: 25px 0px 0px 80px;
+}
+
+.beneficios-membresia li {
+  margin: 10px 0px 0px 0px;
+}
+.boton-condiciones {
+  margin: 15px 0px;
+  padding: 15px 30px;
+  text-align: center;
+  background: #A3A656;
+  border-radius: 35px;
+  color: #FFFFFF;
+  font-size: Inter;
+}
+.boton-condiciones:hover {
+  color: #384001;
+}
+
+/*--------Footer-----------*/
+footer {
+  height: 97px;
+  background-color: #384001;
+}
+#lis-footer {
+  margin: 20px 70px 0px 60px;
+}
+#lis-footer li {
+  margin: 0px 150px 0px 0px;
+}
+#social {
+  float: right;
+  position: relative;
+  top: 18px;
+  display: flex;
+  align-items: center;
+  margin-right: 18px 20px 0px 0px;
+}
+#social span {
+  margin: 10px 10px 0px 0px;
+}
+#redes {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 25px;
+}
+#redes li {
+  margin: 15px 35px 0px 0px;
+}
+
+/*--------------FUENTES------------------*/
+@font-face {
+  font-family: Inter-Regular;
+  src: url(fuentes/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(fuentes/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(fuentes/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Romanesco-Regular;
+  src: url(fuentes/Romanesco-Regular.ttf);
+}
+
+.fuente-menu {
+  font-family: Inter-Regular;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.fuente-normal {
+  font-family: Inter-Regular;
+  font-size: 16px;
+}
+.fuente-placeholder {
+  font-family: Inter-Regular;
+  font-size: 16px;
+  color: #9E9A9A;
+}
+.fuente-titulo1 {
+  font-family: Inter-Bold;
+  font-size: 48px;
+}
+.fuente-titulo2 {
+  font-family: Inter-SemiBold;
+  font-size: 32px;
+}
+.fuente-miniatura {
+  font-family: Inter-Regular;
+  font-size: 14px;
+}
+.fuente-romanesco {
+  font-family: Romanesco-Regular;
+  font-size: 96px;
+}
+.fuente-boton {
+  font-family: Inter-Bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+#fuente-footer {
+  color: #A3A656;
+}

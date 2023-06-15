@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPA - Todos</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <main>
+        <!--Header-->
+      <header>
+        <!--Menu-->
+        <nav>
+          <ul class="fuente-menu lista-sin-punto" id="lis-header">
+            <li>PROMOCIONES</li>
+            <li>FOTOS</li>
+            <li>SERVICIOS</li>
+            <li>MAPA</li>
+            <li>CONTACTO</li>
+          </ul>
+        </nav>
+        <!--Usuario-->
+        <div id="login" class="fuente-miniatura">
+          <span class="usuario">
+            <img class="icono" src="images/user.png" alt=""/>
+            <span>Mi cuenta</span>
+          </span>
+          <span class="usuario">
+            <span>ES</span>
+            <img class="icono" src="images/flag.png" alt="" />
+            <img class="icono" src="images/arrow.png" alt="" />
+          </span>
+        </div>
+      </header>
+      <!--Portada y reservacion-->
+      <section class="portada-reserva">
+        <!--Portada-->
+        <div class="main">
+          <div id="texto-main">
+            <p id="texto-romanesco" class="fuente-romanesco">SPA - Todos</p>
+            <p class="fuente-titulo2">
+              Regálate un momento de paz y consiente a tu piel en el mejor lugar
+            </p>
+          </div>
+        </div>
+        <!--Reservacion-->
+        <div id="reservacion" class="fuente-menu">
+          <span class="cita">Reserva tu cita: </span>
+          <input type="text" id="reserva"/>
+          <span class="codigo">Código promocional: </span>
+          <input type="text" placeholder="   CODIGO" class="fuente-placeholder" id="codigo"/>
+        </div>
+    </section>
+    <!--Servicios de masajes-->
+    <section class="servicios">
+        <!--Cartas-->
+        <div>
+            <!--Carta 1-->
+          <span class="carta-servicio">
+            <div class="fuente-titulo2 cabecera">Masaje de pies</div>
+            <div class="imagen-servicio">
+              <img src="images/pies.png" alt="" />
+            </div>
+            <p class="fuente-miniatura">
+              Esta es una descripcion de la opcion en cuestion ...
+            </p>
+            <div class="compra">
+              <span class="fuente-titulo2 precio">$65</span>
+              <span class="fuente-boton boton-reserva boton">Reservar</span>
+            </div>
+          </span>
+          <!--Carta 2-->
+          <span class="carta-servicio">
+            <div class="fuente-titulo2 cabecera">Masaje relajante</div>
+            <div class="imagen-servicio">
+              <img src="images/relajante.png" alt="" />
+            </div>
+            <p class="fuente-miniatura">
+              Esta es una descripcion de la opcion en cuestion ...
+            </p>
+            <div class="compra">
+              <span class="fuente-titulo2 precio">$60</span>
+              <span class="fuente-boton boton-reserva boton">Reservar</span>
+            </div>
+          </span>
+          <!--Carta 3-->
+          <span class="carta-servicio">
+            <div class="fuente-titulo2 cabecera">Masaje con bambú</div>
+            <div class="imagen-servicio">
+              <img src="images/bambu.png" alt="" />
+            </div>
+            <p class="fuente-miniatura">
+              Esta es una descripcion de la opcion en cuestion ...
+            </p>
+            <div class="compra">
+              <span class="fuente-titulo2 precio">$58</span>
+              <span class="fuente-boton boton-reserva boton">Reservar</span>
+            </div>
+          </span>
+        </div>
+    </section>
+    <!--Beneficios-->
+    <section class="beneficios">
+        <div id="membresias">
+            <!--No se topa el "Haste"-->
+          <h2 class="fuente-titulo2">
+            Haste socio y prueba nuestros beneficios
+          </h2>
+          <div id="tarjetas-membresia">
+            <div class="carta-membresia">
+              <div class="logo-membresia">
+                <div class="imagen-membresia">
+                  <img src="images/gold.png" alt="" />
+                </div>
+              </div>
+              <div class="plan-membresia fuente-titulo2">GOLD</div>
+              <div class="boton-condiciones fuente-boton">
+                VER CONDICIONES
+              </div>
+              <ul class="beneficios-membresia fuente-miniatura">
+                <li>Gimnasio</li>
+                <li>Piscina</li>
+                <li>Todos los tratamientos</li>
+              </ul>
+            </div>
+            <div class="carta-membresia">
+              <div class="logo-membresia">
+                <div class="imagen-membresia">
+                  <img src="images/premium.png" alt="" />
+                </div>
+              </div>
+              <div class="plan-membresia fuente-titulo2">PREMIUM</div>
+              <div class="boton-condiciones fuente-boton">VER CONDICIONES</div>
+              <ul class="beneficios-membresia fuente-miniatura">
+                <li>Gimnasio</li>
+                <li>Todos los tratamientos</li>
+              </ul>
+            </div>
+            <div class="carta-membresia">
+              <div class="logo-membresia">
+                <div class="imagen-membresia">
+                  <img src="images/plate.png" alt="" />
+                </div>
+              </div>
+              <div class="plan-membresia fuente-titulo2">PLATE</div>
+              <div class="boton-condiciones fuente-boton">VER CONDICIONES</div>
+              <ul class="beneficios-membresia fuente-miniatura">
+                <li>Tratamientos faciales</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+      <!--Footer-->
+      <footer class="fuente-menu" id="fuente-footer">
+        <nav>
+          <ul id="lis-footer" class="lista-sin-punto">
+            <li>Politica de cookies</li>
+            <li>Aviso legal</li>
+            <li>Protección de datos</li>
+            <li>Mapa del sitio</li>
+          </ul>
+        </nav>
+        <div id="social">
+          <span id="siguenos">Siguenos en</span>
+          <ul id="redes" class="lista-sin-punto">
+            <li><img src="images/rs_facebook.png" alt=""/></li>
+            <li><img src="images/rs_twiter.png" alt=""/></li>
+            <li><img src="images/rs_youtube.png" alt=""/></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
